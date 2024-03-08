@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Authors>Chad Tolkien</Authors>
     <Company>Soda Digital</Company>
     <PackageProjectUrl>https://github.com/ctolkien/SodaPop.RazorPagesSitemap</PackageProjectUrl>
@@ -34,6 +34,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Language" Version="3.1.8" />
 
     <!-- Source link support -->
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>  
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />  
 </ItemGroup>
 </Project>
